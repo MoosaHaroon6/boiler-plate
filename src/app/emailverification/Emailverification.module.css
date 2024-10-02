@@ -1,0 +1,53 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.parent h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.parent p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.parent a {
+    display: inline-block;
+    background-color: #0070f3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.parent a:hover {
+    background-color: #005bb5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .parent h2 {
+        font-size: 1.8rem;
+    }
+
+    .parent p {
+        font-size: 1rem;
+    }
+
+    .parent a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
